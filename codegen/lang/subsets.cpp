@@ -29,7 +29,7 @@ constexpr int kErrorCantReadKeys    = 831;
 constexpr int kErrorCantReadSource  = 832;
 constexpr int kErrorCantWriteSubset = 833;
 
-constexpr auto kCacheVersion = quint32(1);
+constexpr auto kCacheVersion = quint32(2);
 
 const auto kKeysFile = QString("lang_auto_keys.h");
 const auto kSubsetsFolder = QString("lang_subsets");
